@@ -24,7 +24,8 @@
     "src/tests/**/*.ts"
   ],
   "files": [
-    "./src/main.ts"
+    "./src/main.ts",
+    "./src/worker.android.ts"
   ],
   "exclude": [
       "node_modules",

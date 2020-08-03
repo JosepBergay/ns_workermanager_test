@@ -1,9 +1,13 @@
 // Add your native dependencies here:
 
 // Uncomment to add recyclerview-v7 dependency
-//dependencies {
-//	implementation 'com.android.support:recyclerview-v7:+'
-//}
+dependencies {
+  def work_version = "2.4.0"
+
+    implementation "androidx.work:work-runtime:$work_version"
+
+	// implementation 'com.android.support:recyclerview-v7:+'
+}
 
 // If you want to add something to be applied before applying plugins' include.gradle files
 // e.g. project.ext.googlePlayServicesVersion = "15.0.1"

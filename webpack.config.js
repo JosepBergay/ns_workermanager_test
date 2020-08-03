@@ -22,6 +22,7 @@ module.exports = env => {
     appComponents.push(...[
         "tns-core-modules/ui/frame",
         "tns-core-modules/ui/frame/activity",
+        resolve(__dirname, "src", "worker.android.ts")
     ]);
 
     const platform = env && (env.android && "android" || env.ios && "ios" || env.platform);
